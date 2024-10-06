@@ -1,0 +1,47 @@
+# Composer 디렉토리
+/vendor/
+
+/composer.lock
+
+# PHPStorm 관련 파일
+/.idea/
+
+# VScode 관련 파일
+/.vscode/
+
+# Laravel 관련 캐시 파일
+/storage/*.key
+/storage/logs/*
+/bootstrap/cache/*
+
+# 환경 설정 파일
+.env
+.env.*.local
+
+
+*.log
+*.cache
+*.tmp
+
+
+*.session
+
+
+public/uploads/
+
+*.sql
+*.sqlite
+*.db
+
+.phpunit.result.cache
+
+/node_modules/
+
+
+.DS_Store
+Thumbs.db
+
+*.swp
+*.swo
+*.bak
+*.tmp
